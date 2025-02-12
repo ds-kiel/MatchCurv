@@ -270,8 +270,8 @@ Specify the paths to presets used in experiments:
 
 ```
 @InProceedings{dussa2024matchcurv,
-    author = {Dussa, Harsha Praneeth and Haberer, Janek and Landsiedel, Olaf}
-    title = {MatchCurv: Communication-Efficient Decentralized Federated Learning in Heterogeneous Environments},
+    author    = {Dussa, Harsha Praneeth and Haberer, Janek and Landsiedel, Olaf}
+    title     = {MatchCurv: Communication-Efficient Decentralized Federated Learning in Heterogeneous Environments},
     booktitle = {Proceedings of the 1st Workshop on Enabling Machine Learning Operations for next-Gen Embedded Wireless Networked Devices},
     month     = {December},
     year      = {2024},
