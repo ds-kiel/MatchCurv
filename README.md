@@ -1,9 +1,16 @@
 # MatchCurv: Communication-Efficient Decentralized Federated Learning in Heterogeneous Environments
 
-This repository contains the code for reproducing the results presented in the paper titled "MatchCurv: Communication-Efficient Decentralized Federated Learning in Heterogeneous Environments", accepted at EMERGE'24: 1st Workshop on Enabling Machine Learning Operations for next-Gen Embedded Wireless Networked Devices held in conjunction with International Conference on Embedded Wireless Systems and Networks, EWSN (December 2024).
+This repository contains the code for reproducing the results presented in the paper titled ["MatchCurv: Communication-Efficient Decentralized Federated Learning in Heterogeneous Environments"](https://ewsn.org/file-repository/ewsn2024/emerge24-final23.pdf), accepted at EMERGE'24: 1st Workshop on Enabling Machine Learning Operations for next-Gen Embedded Wireless Networked Devices held in conjunction with International Conference on Embedded Wireless Systems and Networks in December 2024 (Best Presentation Award).
 
 ## About MatchCurv
 Federated learning enables privacy-preserving training of machine learning models but often relies on a centralized setup, leading to risks like single points of failure and communication bottlenecks. MatchCurv is a decentralized federated learning framework designed to overcome these limitations by leveraging MATCHA, FedCurv, and a time-based deadline to improve communication efficiency while managing both statistical and system heterogeneity.
+
+#### Results
+
+
+<p align="center">
+    <img src="pics/MatchCurv.jpg" width="70%">
+</p>
 
 ## Requirements
 
@@ -256,5 +263,18 @@ Specify the paths to presets used in experiments:
     "ignore_logger": "False",
     "ignore_database": "True",
     "sync_delay": 10
+}
+```
+
+## Citing MatchCurv
+
+```
+@InProceedings{dussa2024matchcurv,
+    author = {Dussa, Harsha Praneeth and Haberer, Janek and Landsiedel, Olaf}
+    title = {MatchCurv: Communication-Efficient Decentralized Federated Learning in Heterogeneous Environments},
+    booktitle = {Proceedings of the 1st Workshop on Enabling Machine Learning Operations for next-Gen Embedded Wireless Networked Devices},
+    month     = {December},
+    year      = {2024},
+    url       = {https://ewsn.org/file-repository/ewsn2024/emerge24-final23.pdf}
 }
 ```
